@@ -1,7 +1,7 @@
 {
-  "name": "metaverse-madness-Metaverse-Madness-Site",
+  "name": "metaverse-madness-site",
   "version": "1.0.0",
-  "description": "<div align=\"center\">",
+  "description": "A Metaverse Madness site created using Next.js, Framer and Tailwind CSS from a Figma mockup and hosted on Vercel.",
   "main": "index.js",
   "private": true,
   "scripts": {
@@ -15,7 +15,7 @@
     "url": "git+https://github.com/asbhogal/Next.js-Metaverse-Madness-Site.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aman Singh Bhogal",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/asbhogal/Next.js-Metaverse-Madness-Site/issues"
