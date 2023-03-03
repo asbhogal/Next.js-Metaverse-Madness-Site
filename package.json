@@ -1,0 +1,32 @@
+{
+  "name": "metaverse-madness",
+  "version": "1.0.0",
+  "description": "<div align=\"center\">",
+  "main": "index.js",
+  "scripts": {
+    "dev-prod": "next dev",
+    "build-prod": "next build",
+    "start-server": "next start",
+    "lint": "next lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asbhogal/Next.js-Site.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asbhogal/Next.js-Site/issues"
+  },
+  "homepage": "https://github.com/asbhogal/Next.js-Site#readme",
+  "dependencies": {
+    "framer-motion": "^10.0.1",
+    "next": "^13.2.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
