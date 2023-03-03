@@ -23,11 +23,16 @@ A Metaverse Madness site created using Next.js, Framer and Tailwind CSS from a F
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/nextjs/nextjs-original.svg" alt="nextjs logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/tailwindcss/tailwindcss-plain.svg" alt="tailwind logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://camo.githubusercontent.com/179d66ab2b0321726c88a586c4ad38802e7113a3c98c6fd3f0156c01c98cfd14/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67"><img src="https://camo.githubusercontent.com/179d66ab2b0321726c88a586c4ad38802e7113a3c98c6fd3f0156c01c98cfd14/68747470733a2f2f6672616d657275736572636f6e74656e742e636f6d2f696d616765732f34386861395a52396f5a51475136675a38595566456c50335430412e706e67" alt="framer motion logo" width="50" height="50" style="max-width:100%;"></a>
+<a target="_blank" rel="noopener noreferrer" href="https://turbo.build/images/docs/pack/turbopack-hero-logo-dark.svg"><img src="https://turbo.build/images/docs/pack/turbopack-hero-logo-dark.svg" alt="turbopack logo" width="50" height="50" style="max-width:100%;"></a>
 <a target="_blank" rel="noopener noreferrer" href="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg"><img src="https://github.com/devicons/devicon/blob/master/icons/figma/figma-original.svg" alt="Figma logo" width="50" height="50" style="max-width:100%;"></a>
+
+<strong>Links</strong>
+
+ - <a href="https://metaverse-madness-site.vercel.app/" target="_blank">Metaverse Madness Site</a>
 
 <strong>Attributions</strong>
 
 Credit goes to the following developers:
 
- - Stijn de Vries for the Eudoxus Sans typeface
- - Adrian Hajdin for the Metaverse Madness project tutorial
+ - <a target="_blank" href="https://www.linkedin.com/in/stijn-dv/">Stijn de Vries</a> for the <a href="https://stijndv.com/goodies/eudoxus-sans/">Eudoxus Sans typeface</a>
+ - <a  target="_blank" href="https://www.linkedin.com/in/adrianhajdin/">Adrian Hajdin</a> for the <a href="https://www.youtube.com/watch?v=ugCN_gynFYw">Metaverse Madness project tutorial<a>
