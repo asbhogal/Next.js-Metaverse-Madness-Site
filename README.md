@@ -4,13 +4,14 @@
 
 </div>
 
-A Metaverse Madness site created using Next.js, Framer and Tailwind CSS from a Figma mockup, compiled using Turbopack and hosted on Vercel. 
+A Metaverse Madness site created using Next.js, Framer and Tailwind CSS from a Figma mockup and hosted on Vercel. 
 
 <strong>Features</strong>
 
  - Modern, stylish UI and theme
+ - Fully responsive
  - Rendered from a Figma mockup
- - Compiled using Next.js 13 and Vercel's Turbopack
+ - Optimised for the web
 
  <strong>Stacks &#38; Tools</strong>
 <br>

@@ -4,7 +4,7 @@
   "description": "<div align=\"center\">",
   "main": "index.js",
   "scripts": {
-    "dev-prod": "next dev",
+    "dev-prod": "next dev --turbo",
     "build-prod": "next build",
     "start-server": "next start",
     "lint": "next lint"
