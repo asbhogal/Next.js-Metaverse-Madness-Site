@@ -2,7 +2,9 @@
 
 <h1>Next.js - Metaverse Madness Site</h1>
 
-![](https://api.checklyhq.com/v1/badges/checks/668a6289-18af-401e-9cd0-04419b2b7839?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/668a6289-18af-401e-9cd0-04419b2b7839?style=for-the-badge&theme=dark&responseTime=true) ![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Next.js-Metaverse-Madness-Site/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Next.js-Metaverse-Madness-Site?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Next.js-Metaverse-Madness-Site?color=blueviolet&style=for-the-badge&labelColor=000)
+![](https://api.checklyhq.com/v1/badges/checks/668a6289-18af-401e-9cd0-04419b2b7839?style=for-the-badge&theme=dark) ![](https://api.checklyhq.com/v1/badges/checks/668a6289-18af-401e-9cd0-04419b2b7839?style=for-the-badge&theme=dark&responseTime=true)
+
+![GitHub deployments](https://img.shields.io/github/deployments/asbhogal/Next.js-Metaverse-Madness-Site/production?label=DEPLOYMENT%20STATE&style=for-the-badge&labelColor=000) ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/asbhogal/Next.js-Metaverse-Madness-Site?style=for-the-badge&labelColor=000) ![GitHub repo size](https://img.shields.io/github/repo-size/asbhogal/Next.js-Metaverse-Madness-Site?color=blueviolet&style=for-the-badge&labelColor=000)
 
 </div>
 
