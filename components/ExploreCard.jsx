@@ -1,3 +1,6 @@
+'use client';
+
+import dynamic from 'next/dynamic';
 import React from 'react'
 
 const ExploreCard = () => (
@@ -6,4 +9,4 @@ const ExploreCard = () => (
     </div>
 );
 
-export default ExploreCard;
+export default dynamic(() => Promise.resolve(ExploreCard), { ssr: false });

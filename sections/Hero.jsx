@@ -1,9 +1,11 @@
 'use client';
 
+import dynamic from "next/dynamic";
+
 const Hero = () => (
     <section>
       Hero section
     </section>
 );
   
-export default Hero;
+export default dynamic (() => Promise.resolve(Hero), { ssr: false });
