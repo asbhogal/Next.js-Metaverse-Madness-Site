@@ -4,9 +4,7 @@ import '../styles/globals.css';
 import '../styles/typography.css';
 import '../styles/colors.css';
 
-import dynamic from "next/dynamic";
-
-const MyApp = ({ Component, pageProps }) => (
+const MetaversusApp = ({ Component, pageProps }) => (
     <>
         <Head>
             <title>Metaversus</title>
@@ -18,4 +16,4 @@ const MyApp = ({ Component, pageProps }) => (
     </>
 );
 
-export default dynamic (() => Promise.resolve(MyApp), { ssr: false });
+export default MetaversusApp;
