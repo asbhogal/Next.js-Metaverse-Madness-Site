@@ -6,7 +6,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+    outline: 1px solid red;
+} 
 
 html {
     scroll-behavior: smooth;
@@ -16,13 +17,13 @@ html {
 .gradient-01 {
     background-image: linear-gradient(
       270deg,
-      --SteelPink 0%,
-      --BrightLilac 26%,
-      --Soap 39%,
-      --Water 50%,
-      --PaleCornflowerBlue 61%,
-      --VistaBlue 74%,
-      --CelticBlue 100%
+      var(--SteelPink),
+      var(--BrightLilac),
+      var(--Soap),
+      var(--Water),
+      var(--PaleCornflowerBlue),
+      var(--VistaBlue),
+      var(--CelticBlue)
     );
     filter: blur(125px);
   }

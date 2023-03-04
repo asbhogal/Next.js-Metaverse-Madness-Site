@@ -5,9 +5,8 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "dev-prod": "next dev --turbo",
+    "start-server": "next dev --turbo",
     "build-prod": "next build",
-    "start-server": "next start",
     "lint": "next lint"
   },
   "repository": {

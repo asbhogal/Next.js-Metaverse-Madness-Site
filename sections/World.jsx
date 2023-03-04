@@ -1,3 +1,5 @@
+'use client';
+
 const World = () => (
     <section>
       World section

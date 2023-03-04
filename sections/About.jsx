@@ -1,3 +1,5 @@
+'use client';
+
 const About = () => (
     <section>
         About section
