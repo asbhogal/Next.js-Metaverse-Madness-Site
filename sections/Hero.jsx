@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 import styles from '../styles/styles';
@@ -37,24 +36,18 @@ const Hero = () => (
         <motion.div
           variants={ slideIn('right', 'tween', 0.2, 1) }
           className="relative w-full md:-mt-[20px] -mt-[12px]">
-            <div className="absolute w-full h-[300px]  rounded-tl-[140px] -top-[30px] z-0" />
-              <Image 
+              <img 
                 src={ heroImg }
-                className="w-full sm:h-[500px] h-[350px] object-cover rounded-tl-[140px] z-0 relative"
-                width={ 0 }
-                height={ 0 }
+                className="w-full sm:h-[500px] h-[350px] -mt-[30px] object-cover rounded-tl-[140px] z-0 relative"
                 alt="A fantasy image of planets, comets and stars"
-                priority
               />
 
               <a href="#explore">
                 <div className="flex justify-end w-full -translate-y-1/2 pr-[40px] relative z-10">
-                  <Image 
+                  <img 
                     src={ circularCTAStamp }
                     alt="A circular image with the words 'explore and enter the metaverse' around the edge and a mouse icon in the middle"
-                    className="circular-CTA object-contain"
-                    width={ 155 }
-                    height={ 155 }
+                    className="sm:w-[155px] w-[100px] sm:h-[155px] h-[155px] circular-CTA object-contain"
                   />
                 </div>
               </a>

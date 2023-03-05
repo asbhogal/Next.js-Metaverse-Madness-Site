@@ -1,6 +1,5 @@
 'use client';
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 
 import styles from '../styles/styles';
@@ -18,7 +17,7 @@ const Navbar = () => (
         <div className="absolute w-[50%] inset-0 gradient-01" />
         <div className="background-blur-top w-full h-full" />
         <div className={ `${ styles.innerWidth } mx-auto flex justify-between items-center gap-8` }>
-            <Image 
+            <img 
                 src={ searchIcon }
                 alt="search icon"
                 className="object-contain"
@@ -26,7 +25,7 @@ const Navbar = () => (
                 height={24}
             />
             <h2 className="font-extrabold text-[24px] leading-[30px] text-white uppercase">metaversus</h2>
-            <Image
+            <img
                 src={ hamburgerIcon }
                 alt="hamburger menu icon"
                 className="object-contain"
