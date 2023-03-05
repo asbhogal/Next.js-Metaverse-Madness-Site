@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import styles from '../styles/styles';
 import { navVariants } from '../utils/motion';
 
-import backgroundBlurTop from "../public/assets/BackgroundBlurTop.png";
 import searchIcon from "../public/assets/search.svg";
 import hamburgerIcon from "../public/assets/menu.svg";
 
