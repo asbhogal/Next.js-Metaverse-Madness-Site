@@ -11,7 +11,7 @@ module.exports = {
         theme: {
             extend: {
                 colors: {
-                'DarkGunmetal': '#1A232E',
+                'DarkGunmetal': '#1a232e',
                 'ChineseSilver': '#c7c7c7',
                 },
                 transitionTimingFunction: {

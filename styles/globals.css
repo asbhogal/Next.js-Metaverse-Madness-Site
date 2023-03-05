@@ -39,7 +39,6 @@ html {
 
   .circular-CTA {
     filter: drop-shadow(0px 4px 120px rgba(0, 0, 0, 0.25));
-    backdrop-filter: blur(24px);
   }
 
   .background-blur-top {
@@ -59,8 +58,7 @@ html {
     height: 438px;
     top: 0px;
     right: 0px;
-  
-    background: --ElectricBlue;
+    background: var(--ElectricBlue);
     filter: blur(190px);
   }
   
@@ -76,9 +74,8 @@ html {
     position: absolute;
     width: 404px;
     height: 800px;
-    left: 20%;
-    top: 5%;
-  
+    left: 25%;
+    top: 60%;
     background: #9542e859;
     filter: blur(175px);
     transform: rotate(-114.2deg);
@@ -110,8 +107,7 @@ html {
     height: 316px;
     left: 0px;
     top: 0px;
-  
-    background: --CadmiumViolet;
+    background: var(--CadmiumViolet);
     filter: blur(175px);
   }
   
@@ -121,8 +117,7 @@ html {
     height: 100px;
     left: 37%;
     bottom: 0;
-  
-    background: --MayaBlue;
+    background: var(--MayaBlue);
     filter: blur(150px);
   }
   

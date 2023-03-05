@@ -23,7 +23,7 @@ const Hero = () => (
             metaverse
           </motion.h1>
           <motion.div
-            variants={textVariant(1.2)}
+            variants={ textVariant(1.2) }
             className="flex justify-center items-center">
             <h1 className="flex items-center">
               <span className={ styles.heroHeading }>Ma</span>
@@ -42,14 +42,23 @@ const Hero = () => (
                 alt="A fantasy image of planets, comets and stars"
               />
 
-              <a href="#explore">
-                <div className="flex justify-end w-full -translate-y-1/2 pr-[40px] relative z-10">
-                  <img 
+              <a href="#explore"
+                >
+                <motion.div className="flex justify-end w-full -translate-y-1/2 pr-[40px] relative z-10">
+                  <motion.img 
+                    animate={{
+                      rotate: 360
+                    }}
+                    transition={{
+                      repeat: Infinity,
+                      ease: "easeIn",
+                      duration: 20
+                    }}
                     src={ circularCTAStamp }
                     alt="A circular image with the words 'explore and enter the metaverse' around the edge and a mouse icon in the middle"
                     className="sm:w-[155px] w-[100px] sm:h-[155px] h-[155px] circular-CTA object-contain"
                   />
-                </div>
+                </motion.div>
               </a>
           </motion.div>
       </motion.div>

@@ -18,6 +18,22 @@ export const navVariants = {
       },
     },
   };
+
+  export const infiniteRotate = {
+    animate: {
+      rotate: 360,
+    },
+    transition: {
+      repeat: Infinity,
+      ease: "easeIn",
+      duration: 20,
+    },
+    whileHover: {
+      animate: {
+        rotate: -360
+      }
+    }
+  };
   
   export const slideIn = (direction, type, delay, duration) => ({
     hidden: {
