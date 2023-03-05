@@ -5,9 +5,6 @@ import { motion } from "framer-motion";
 import styles from '../styles/styles';
 import { navVariants } from '../utils/motion';
 
-import searchIcon from "../public/assets/search.svg";
-import hamburgerIcon from "../public/assets/menu.svg";
-
 const Navbar = () => (
     <motion.nav
         variants={ navVariants }
@@ -18,7 +15,7 @@ const Navbar = () => (
         <div className="background-blur-top w-full h-full" />
         <div className={ `${ styles.innerWidth } mx-auto flex justify-between items-center gap-8` }>
             <img 
-                src={ searchIcon }
+                src="/search.svg"
                 alt="search icon"
                 className="object-contain"
                 width={24}
@@ -26,7 +23,7 @@ const Navbar = () => (
             />
             <h2 className="font-extrabold text-[24px] leading-[30px] text-white uppercase">metaversus</h2>
             <img
-                src={ hamburgerIcon }
+                src="/menu.svg"
                 alt="hamburger menu icon"
                 className="object-contain"
                 width={24}
