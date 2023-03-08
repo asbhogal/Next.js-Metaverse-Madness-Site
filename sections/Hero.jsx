@@ -34,7 +34,7 @@ const Hero = () => (
           variants={ slideIn('right', 'tween', 0.2, 1) }
           className="relative w-full md:-mt-[20px] -mt-[12px]">
               <img 
-                src="/cover.png"
+                src="assets/cover.png"
                 className="w-full sm:h-[500px] h-[350px] -mt-[30px] object-cover rounded-tl-[140px] z-0 relative"
                 alt="A fantasy image of planets, comets and stars"
               />
@@ -51,7 +51,7 @@ const Hero = () => (
                       ease: "easeIn",
                       duration: 20
                     }}
-                    src="/stamp.png"
+                    src="assets/stamp.png"
                     alt="A circular image with the words 'explore and enter the metaverse' around the edge and a mouse icon in the middle"
                     className="sm:w-[155px] w-[100px] sm:h-[155px] h-[155px] circular-CTA object-contain"
                   />

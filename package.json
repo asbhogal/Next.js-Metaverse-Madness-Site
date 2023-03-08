@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "start-server": "next dev --turbo",
-    "build-prod": "next build && next export",
+    "build-prod": "next build",
     "lint": "next lint"
   },
   "repository": {
