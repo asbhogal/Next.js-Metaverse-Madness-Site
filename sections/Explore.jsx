@@ -21,7 +21,7 @@ const Explore = () => {
       className={ `${ styles.paddings }` }
       id="explore">
       <img 
-        src={backgroundPurpleEllipse} 
+        src="assets/Ellipse11.png"
         className="absolute"
       />
       <div className="gradient-03" />
