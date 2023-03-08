@@ -7,7 +7,6 @@ module.exports = {
         './sections/**/*.{html,js,jsx}',
         './styles/**/*.{js,jsx}',
         ],
-        mode: 'jit',
         theme: {
             extend: {
                 colors: {

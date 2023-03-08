@@ -5,7 +5,7 @@ import { useState } from "react";
 import { motion } from "framer-motion";
 import { TitleText, TypingText } from "../components/exports";
 import { ExploreCard } from "../components/exports";
-import exploreWorlds from "../constants/data";
+import { exploreWorlds } from "../constants/data.js";
 import styles from '../styles/styles';
 import { staggerContainer } from "../utils/motion";
 
@@ -14,6 +14,7 @@ import backgroundPurpleEllipse from "../public/assets/Ellipse11.png";
 const Explore = () => {
 
   const [active, setActive] = useState('world-2');
+  console.log(exploreWorlds);
 
   return (
     <section
@@ -39,11 +40,12 @@ const Explore = () => {
         <TitleText 
           title={ <>Choose the world you want
                     <br className="md:block hidden"/> 
-                  to explore</> }
+                  to explore</> 
+                }
           textStyles="text-center"
         />
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[70vh] gap-5">
-          {/* { exploreWorlds.map((world, index) => (
+          { exploreWorlds.map((world, index) => (
             <ExploreCard 
               key={ world.id }
               { ...world }
@@ -51,7 +53,7 @@ const Explore = () => {
               active={ active }
               handleClick={ setActive }
             />
-          )) } */}
+          )) }
         </div>
       </motion.div>
     </section>

@@ -25,7 +25,7 @@ const Hero = () => (
             <h1 className="flex items-center">
               <span className={ styles.heroHeading }>Ma</span>
               <div className={ styles.heroDText } />
-              <span className={ styles.heroHeading }>nes</span>
+              <span className={ styles.heroHeading }>ness</span>
             </h1>
           </motion.div>
         </div>

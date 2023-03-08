@@ -15,7 +15,7 @@ const Navbar = () => (
         <div className="background-blur-top w-full h-full" />
         <div className={ `${ styles.innerWidth } mx-auto flex justify-between items-center gap-8` }>
             <img 
-                src="/assets/search.svg"
+                src="assets/search.svg"
                 alt="search icon"
                 className="object-contain"
                 width={24}
@@ -23,7 +23,7 @@ const Navbar = () => (
             />
             <h2 className="font-extrabold text-[24px] leading-[30px] text-white uppercase">metaversus</h2>
             <img
-                src="./assets/menu.svg"
+                src="assets/menu.svg"
                 alt="hamburger menu icon"
                 className="object-contain"
                 width={24}
