@@ -15,7 +15,7 @@ const Navbar = () => (
         <div className="background-blur-top w-full h-full" />
         <div className={ `${ styles.innerWidth } mx-auto flex justify-between items-center gap-8` }>
             <img 
-                src="assets/search.svg"
+                src="/assets/search.svg"
                 alt="search icon"
                 className="object-contain"
                 width={24}
