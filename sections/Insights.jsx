@@ -12,7 +12,7 @@ const Insights = () => (
         variants={ staggerContainer }
         initial="hidden"
         whileInView="show"
-        viewport={ { once: 'false', amount: 25 } }
+        viewport={ { once: 'false', amount: 0.25 } }
         className={ `${ styles.innerWidth } flex flex-col mx-auto` }
       >
         <TypingText
@@ -24,6 +24,17 @@ const Insights = () => (
           title="Insight about metaverse"
           textStyles="text-center"
         />
+
+        <div className="met-[50px] flex flex-col gap-[30px]">
+          { insights.map((item, index) => (
+            <InsightCard
+              key={ `insight-${ index }` }
+              { ...item }
+              index={ index + 1 }
+            />
+          )) }
+        </div>
+
       </motion.div>
     </section>
 );

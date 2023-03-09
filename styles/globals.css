@@ -14,6 +14,11 @@ html {
     font-family: 'Eudoxus Sans', sans-serif;
 }
 
+.stamp-cta-bottom {
+  transform: translate(270.2px, 173.79px);
+  rotate: -20.18deg;
+}
+
 .gradient-01 {
     background-image: linear-gradient(
       270deg,

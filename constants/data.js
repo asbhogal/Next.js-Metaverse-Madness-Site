@@ -51,19 +51,22 @@ export const exploreWorlds = [
   
   export const insights = [
     {
-      imgUrl: '/planet-06.png',
+      imgUrl: 'assets/planet-06.png',
+      alt: 'An image of several planets and comets against a blueish-purple gradient',
       title: 'The launch of the Metaverse makes Elon musk ketar-ketir',
       subtitle:
           'Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.',
     },
     {
-      imgUrl: '/planet-07.png',
+      imgUrl: 'assets/planet-07.png',
+      alt: 'A landscape of rock figures on a desert plane with a sun in the backdrop',
       title: '7 tips to easily master the madness of the Metaverse',
       subtitle:
           'Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum',
     },
     {
-      imgUrl: '/planet-08.png',
+      imgUrl: 'assets/planet-08.png',
+      alt: 'Three floating rock platforms with several planets and a floating spaceship',
       title: 'With one platform you can explore the whole world virtually',
       subtitle:
           'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
@@ -73,19 +76,19 @@ export const exploreWorlds = [
   export const socials = [
     {
       name: 'twitter',
-      url: '/twitter.svg',
+      url: 'assets/twitter.svg',
     },
     {
       name: 'linkedin',
-      url: '/linkedin.svg',
+      url: 'assets/linkedin.svg',
     },
     {
       name: 'instagram',
-      url: '/instagram.svg',
+      url: 'assets/instagram.svg',
     },
     {
       name: 'facebook',
-      url: '/facebook.svg',
+      url: 'assets/facebook.svg',
     },
   ];
   
