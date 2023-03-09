@@ -34,13 +34,15 @@ export const exploreWorlds = [
   
   export const newFeatures = [
     {
-      imgUrl: '/vrpano.svg',
+      imgUrl: 'assets/vrpano.svg',
+      imgAlt: 'A white icon of a panoramic image view',
       title: 'A new world',
       subtitle:
           'we have the latest update with new world for you to try never mind',
     },
     {
-      imgUrl: '/headset.svg',
+      imgUrl: 'assets/headset.svg',
+      imgAlt: 'A white icon of a VR headset',
       title: 'More realistic',
       subtitle:
           'In the latest update, your eyes are narrow, making the world more realistic than ever',

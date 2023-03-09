@@ -9,12 +9,9 @@ import { exploreWorlds } from "../constants/data.js";
 import styles from '../styles/styles';
 import { staggerContainer } from "../utils/motion";
 
-import backgroundPurpleEllipse from "../public/assets/Ellipse11.png";
-
 const Explore = () => {
 
   const [active, setActive] = useState('world-2');
-  console.log(exploreWorlds);
 
   return (
     <section
@@ -24,7 +21,6 @@ const Explore = () => {
         src="assets/Ellipse11.png"
         className="absolute"
       />
-      <div className="gradient-03" />
       <motion.div
         variants={ staggerContainer }
         initial="hidden"
