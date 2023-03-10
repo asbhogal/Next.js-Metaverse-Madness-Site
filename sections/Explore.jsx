@@ -17,10 +17,10 @@ const Explore = () => {
     <section
       className={ `${ styles.paddings }` }
       id="explore">
-      <img 
+      {/* <img 
         src="assets/Ellipse11.png"
         className="absolute"
-      />
+      /> */}
       <motion.div
         variants={ staggerContainer }
         initial="hidden"
